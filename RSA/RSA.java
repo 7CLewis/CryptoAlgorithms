@@ -2,8 +2,9 @@ import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
-*
-*
+* Create an RSA encoding of a packet
+* 
+* @author 7CLewis
 */
 public class RSA {
 

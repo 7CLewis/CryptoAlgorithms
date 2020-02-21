@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 /**
+ * Driver class to encrypt message packets using the RSA algorithm
  * 
- * 
- * 
+ * @author 7CLewis
  */
 public class RSADriver {
 

@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 /**
  *
- * Driver to test the Caesar Cipher.
+ * Driver to test the Caesar Cipher
  * 
- * @author cmlewis
+ * @author 7CLewis
  *
  */
 
@@ -72,7 +72,6 @@ public class CaesarCipherDriver {
                 successful = true;
                 System.out.println("Please enter the message that you would like to decode (Characters 'A-Z' and 'a-z' ONLY)");
                 String msg = scan.next();
-                //Do the A-Z and a-z only check HERE
                 while(!validString) {
                     //Do the A-Z and a-z only check HERE
                     for(int i = 0; i < msg.length(); i++) {
