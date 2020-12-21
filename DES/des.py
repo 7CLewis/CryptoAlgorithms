@@ -2,8 +2,7 @@
 
 # Data Encryption Standard Simulator
 # Author: Casey Lewis
-# Can verify results using http://des.online-domain-tools.com
-
+# Encrypts ASCII plaintext strings using plain DES
 
 # The data for these tables was found at https://en.wikipedia.org/wiki/DES_supplementary_material 
 
