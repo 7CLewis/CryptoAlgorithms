@@ -207,7 +207,6 @@ def s_box_with_perm(block):
         i = int(block[block_start] + block[block_start + 5],2)
         j = int(block[block_start + 1] + block[block_start + 2] + block[block_start + 3] + block[block_start + 4],2)
         s_choice = bin(s_box[index][i][j]).replace("0b", "")
-       # print(" ", index, " ", i, " ", j)
         while len(s_choice) < 4:
             s_choice = '0' + s_choice
         s += s_choice
